@@ -1,0 +1,158 @@
+.chat{
+    height: 70%;
+    width: 70%;
+    background: white;
+    display:flex;
+    border-radius: 6%;
+    overflow: hidden;
+}
+
+.usuariosDisponiveis{
+    height: 100%;
+    width: 30%;
+    background: yellow;
+    display: flex;
+    padding-top: 10%;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.conversa{
+    height:100%;
+    width:70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pessoaInfo{
+    height: 20%;
+    width: 100%;
+    background: #bdc0ce;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.info{
+    padding-left: 10%;
+    display: flex;
+}
+
+.infoDescricao{
+    width: 100px;
+    padding-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.infoDescricao .status{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30%;
+    align-items: center;
+}
+.statusDescricao{
+    font-family: TT Norms;
+    font-size: 16px;
+    text-transform: lowercase;
+    color: #2A8BF2
+}
+
+.info .nome{
+    font-family: 'Roboto';
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.info .foto{
+        width: 40px;
+        height: 40px;
+        border: 5px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 50%;
+        background: url("https://img.myloview.com.br/adesivos/imagem-de-perfil-padrao-160-27677370.jpg");
+        background-size: 100%;
+    
+}
+
+.sinal-red{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: red;
+}
+.sinal-green{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: green;
+}
+
+.papo{
+    height: 60%;
+    width: 100%;
+    padding-top: 5%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.envioMensagem{
+    height: 20%;
+    width: 100%;
+    padding:5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.botaoEnviar:hover{
+    opacity: 0.6;
+}
+
+.envioMensagem .caixa{
+    width: 70%;
+    height: 50%;
+}
+
+.botaoEnviar{
+    cursor: pointer;
+    transition: opacity 0.5s;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+    background: linear-gradient(325.78deg, #2A8BF2 14.76%, #7CB8F7 87.3%);
+    box-shadow: 4px 6px 10px rgba(42, 139, 242, 0.15), 2px 2px 25px rgba(42, 139, 242, 0.05), 4px 4px 25px rgba(42, 139, 242, 0.15);
+}
+
+.envio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    fill: white;
+}
+
+.enviado{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.recebido{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.conteudo{
+    max-width: 170px;
+    word-wrap: break-word;
+}

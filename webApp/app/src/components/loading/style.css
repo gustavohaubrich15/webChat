@@ -1,0 +1,23 @@
+.carregamento{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: #a08a8aa1;
+}
+.circulo{
+    border: 10px solid rgba(0, 0, 0, .1);
+    border-left-color: #22a6b3;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    animation: girar 2.5s linear infinite;
+    position: relative;
+}
+
+@keyframes girar{
+    to{transform:rotate(360deg)}
+}
+

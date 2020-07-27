@@ -1,0 +1,31 @@
+.aba{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    padding-top: 7%;
+    position: relative;
+}
+
+.abaNome{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    cursor: pointer;
+}
+
+.sombreado{
+    width: 100px;
+    height: 100%;
+    background-image: linear-gradient(to right, white , #9fcaffb8);
+    position: absolute;
+}
+.abaDireita{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+}
